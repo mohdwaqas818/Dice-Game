@@ -1,0 +1,158 @@
+body{
+	background-image: url('dice-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+    overflow-y: hidden; /* Hide vertical scrollbar */
+}
+
+.main-container{
+	margin-top: 50px;
+}
+
+#p0{
+	background-color: #ffce54;
+}
+
+#p1{
+	background-color: white;
+}
+
+.container{
+	background: rgba(0, 0, 0, 0.5);
+	border: 10px solid orange;
+}
+
+.row{
+	padding: 30px;
+	display: flex;
+	 align-items: center;
+	 justify-content: center;
+}
+
+.score-0{
+	text-align: center;
+}
+.score-1{
+	text-align: center;
+}
+
+.newGame{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #6B5B95;
+	color: red;
+	font-weight: bold;
+	padding-top: 15px;
+}
+
+.current-score-0{
+	margin-top: 30px;
+	background-color: red;
+	color: #ffce54;
+	padding: 5px;
+	margin-bottom: 20px;
+}
+
+.current-score-0 h2{
+	color: white;
+	font-weight: bold;
+}
+
+.current-score-1{
+	background-color: red;
+	color: #ffce54;
+	padding: 5px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.current-score-1 h2{
+	color: white;
+	font-weight: bold;
+}
+
+.dice-image{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.roll-dice{
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+}
+
+.ion-roll-dice{
+	width: 50px;
+	height: 50px;
+	color: white;
+}
+
+#hold-dice{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10px;
+	margin-top: 10px;
+	font-weight: bold;
+	color: white;
+	font-size: 16px;
+}
+
+.ion-roll-hold{
+	width: 50px;
+	height: 50px;
+	color: white;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.ion-icon-controller{
+	height: 30px;
+	width: 30px;
+}
+
+.newGame button ion-icon{
+	font-size: 16px;
+	background-color: white;
+	padding: 5px;
+	border-radius: 50%;
+}
+
+.newGame button p{
+	color: white;
+}
+
+.roll-dice button ion-icon{
+	font-size: 16px;
+}
+
+.roll-dice p{
+	font-weight: bold;
+}
+
+#hold-dice button ion-icon{
+	font-size: 16px;
+}
+
+#hold-dice p{
+	font-weight: bold;
+}
